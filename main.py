@@ -9,7 +9,7 @@ import pandas as pd
 from utils import calculate_gpa, count_per_grade
 
 # Persiapan data
-file = input('Masukkan nama file: ')
+file = str(input('Masukkan nama file: '))
 rekap_sebelum = pd.read_excel(file)
 rekap_sebelum = rekap_sebelum.drop(rekap_sebelum.index[0])
 rekap_sebelum = rekap_sebelum.dropna()
@@ -33,7 +33,7 @@ print('\nIPK: %.3f' % ipk_sebelum)
 
 # UBAH NILAI
 print("\n=====UBAH NILAI==========================")
-delete_subject = input('\nMasukkan KODE yang ingin dihapus: ')
+delete_subject = str(input('\nMasukkan KODE yang ingin dihapus: '))
 delete_subject = [x for x in delete_subject.split()]
 rekap_sesudah = rekap_sebelum
 
