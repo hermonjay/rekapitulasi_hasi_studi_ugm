@@ -19,3 +19,9 @@ Program ini digunakan untuk rekapitulasi hasil studi mahasiswa UGM yang biasa me
      ![Contoh](https://github.com/hermonjay/rekapitulasi_hasi_studi_ugm/blob/master/img/input_sample_2.PNG)
   9. Informasi lengkap setelah penghapusan akan muncul  
      ![Contoh](https://github.com/hermonjay/rekapitulasi_hasi_studi_ugm/blob/master/img/input_sample_3.PNG)
+
+## Input gagal?
+  1. Ganti variabel ```file``` pada baris 12 menjadi nama file,
+     misal ```'rekap_nilai.xlsx'```
+  2. Ganti variabel ```delete_subject``` pada baris 36 dan 37 menjadi list kode mata kuliah yang ingin dihapus,
+     misal ```['MII1604', 'MMM2304', 'MIE2811']```
