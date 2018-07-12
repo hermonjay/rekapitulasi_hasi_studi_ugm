@@ -36,7 +36,7 @@ print("\n=====UBAH NILAI==========================")
 delete_subject = input('\nMasukkan KODE yang ingin dihapus: ')
 delete_subject = [x for x in delete_subject.split()]
 rekap_sesudah = rekap_sebelum
-delete_subject = ['MII1604', 'MMM2304']
+
 rekap_hapus = pd.DataFrame(columns=rekap_sebelum.columns)
 
 for i in delete_subject:
